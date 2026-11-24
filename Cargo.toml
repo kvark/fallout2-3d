@@ -1,0 +1,13 @@
+[package]
+name = "fallout2-3d"
+version = "0.1.0"
+edition = "2021"
+description = "Playable Fallout 2 map view with four corners, drawn by blade-graphics"
+license = "MIT"
+
+[dependencies]
+blade-graphics = "0.9"
+bytemuck = { version = "1", features = ["derive"] }
+flate2 = "1"
+png = "0.17"
+winit = "0.30"
